@@ -1,15 +1,11 @@
-import Header from './header.jsx'
-import Footer from './footer.jsx'
-import Food from './food.jsx'
+import Button from './Button.jsx'
 
-function App() {
-  return(
-    <>
-      <Header/>
-      <Food/>
-      <Footer/>
-    </>
-  );
+function App(){
+    return(
+        <>
+            <Button/>
+        </>
+    );
 }
 
 export default App
